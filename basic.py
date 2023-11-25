@@ -173,3 +173,21 @@
 
 # tup2=tup[1:4]
 # print(type(tup2),tup2)
+
+# Global variable
+global_var = 100
+
+def example_function():
+    # Local variable
+    local_var = 50
+    print("Inside the function:")
+    print("Local variable:", local_var)
+    print("Global variable:", global_var)
+
+# Call the function
+example_function()
+
+
+
+# Try to access local_var outside the function (will result in an error)
+# print("Outside the function:", local_var)
