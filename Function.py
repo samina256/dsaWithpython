@@ -57,9 +57,12 @@
 #     print(num)
 # name(567,89,78,0)
 
-def person(name,**data):
-    print(name,data)
-    for i,j in data.items():
-       print(i,j)
+# def person(name,**data):
+#     print(name,data)
+#     for i,j in data.items():
+#        print(i,j)
 
-person('Samina',age=24,city='Mumbai',mob= 1778144803)
+# person('Samina',age=24,city='Mumbai',mob= 1778144803)
+
+def doItAfter():
+     pass
